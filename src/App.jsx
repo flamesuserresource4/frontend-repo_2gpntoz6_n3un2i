@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import PostGrid from './components/PostGrid.jsx';
+import ArticleExample from './components/ArticleExample.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <PostGrid />
+        <ArticleExample />
       </main>
       <Footer />
     </div>

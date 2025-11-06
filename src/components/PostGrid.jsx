@@ -1,32 +1,6 @@
 import React from 'react';
 import PostCard from './PostCard.jsx';
-
-const samplePosts = [
-  {
-    title: 'Ceasefire Talks Shift Markets as Energy Corridor Opens',
-    region: 'Middle East',
-    excerpt: 'Weeklong negotiations reshape crude routes while regional actors recalibrate security guarantees.',
-    date: 'Nov 6, 2025',
-  },
-  {
-    title: 'Election Ripple Effects Across the Indo-Pacific',
-    region: 'Asia-Pacific',
-    excerpt: 'Defense compacts and semiconductor supply chains face new incentives after surprise coalition.',
-    date: 'Nov 6, 2025',
-  },
-  {
-    title: 'Central Bank Swaps and the Weaponization of Finance',
-    region: 'Global',
-    excerpt: 'Why liquidity lines and sanctions architecture now define geopolitical leverage beyond militaries.',
-    date: 'Nov 5, 2025',
-  },
-  {
-    title: 'Arctic Shipping Season Extends as Ice Retreats',
-    region: 'Europe',
-    excerpt: 'Northern routes accelerate minerals trade as insurers and navies race to update risk models.',
-    date: 'Nov 4, 2025',
-  },
-];
+import { posts as samplePosts } from './posts.js';
 
 const PostGrid = () => {
   return (
@@ -41,7 +15,7 @@ const PostGrid = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {samplePosts.map((post, idx) => (
-            <PostCard key={idx} {...post} />
+            <PostCard key={post.id} {...post} />
           ))}
         </div>
         <div id="subscribe" className="mt-14 bg-gradient-to-br from-cyan-500/10 via-cyan-400/5 to-transparent border border-cyan-400/20 rounded-2xl p-6">

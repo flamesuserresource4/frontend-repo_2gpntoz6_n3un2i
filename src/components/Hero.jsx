@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
         <div className="relative h-[420px] sm:h-[520px] lg:h-[560px] order-1 lg:order-2">
           <div className="absolute inset-0 rounded-2xl overflow-hidden">
-            <Spline scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+            <Spline scene="https://prod.spline.design/M2rj0DQ6tP7dSzSz/scene.splinecode" style={{ width: '100%', height: '100%' }} />
           </div>
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent" />
         </div>

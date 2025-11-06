@@ -3,6 +3,7 @@ import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import PostGrid from './components/PostGrid.jsx';
 import ArticleExample from './components/ArticleExample.jsx';
+import AdminPanel from './components/AdminPanel.jsx';
 import Footer from './components/Footer.jsx';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Hero />
         <PostGrid />
+        <AdminPanel />
         <ArticleExample />
       </main>
       <Footer />
